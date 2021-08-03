@@ -1,0 +1,84 @@
+body{
+    color: #141313;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Montserrate', roboto;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', roboto;
+    font-weight: bold;
+}
+
+h2 {
+    color: #302c2c;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #4352A1;
+}  
+
+.banner{
+    background-image: url(https://images.unsplash.com/photo-1546863340-7e4e97e46f42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    color: rgb(252, 252, 252);
+    padding: 120px 0;
+}
+
+.banner h1{
+    font-size: 40;
+}
+
+.banner p{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
+
+.link-medium {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgb(53, 65, 235));
+    color: #333333;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.link-medium:hover {
+    background-image: linear-gradient(to bottom, rgb(196, 196, 196), rgb(35, 7, 160));
+}
+
+@media(max-width: 900px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media(max-width: 750px) {
+    .container {
+      width: 450px;
+    }
+  }
+  @media(max-width: 500px) {
+    .container {
+      width: 350px;
+    }
+    .banner {
+      padding: 50px 0;
+    }
+    .banner h1 {
+      font-size: 30px;
+    }
+    .banner p {
+      font-size: 20px;
+    }
+  }
+  
